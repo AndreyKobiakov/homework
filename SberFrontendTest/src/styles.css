@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.divTable{
+  display: flex;
+  justify-content: center;
+}
+.table {
+	min-width: 65%;
+  width: auto;
+	margin-bottom: 20px;
+	border: 1px solid #da8383;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #e5e9c9;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #775e5e;
+	padding: 5px;
+}
+
+td{
+  text-align: center;
+}
+.divForm{
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: space-between;
+}
+.divFormInputs{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.radio{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.lableNames{
+  display: block;
+  width: 100px;
+ }
+.divForInput{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+.buttons{
+  margin-top: 20px;
+}
+.errorsGender{
+  color:#da8383
+}
+.hSex{
+  display: flex;
+  margin-left: -25%;
+  margin-bottom: -15%;
+}
+.inputsDivGender{
+  display: flex;
+  justify-content: center;
+ width: 100%;
+}
+.lableNameGender{
+  display: flex;
+}
